@@ -32,5 +32,6 @@
     # Misc
     remmina
     bottles
+    kdePackages.ark
   ];
 }

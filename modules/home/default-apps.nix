@@ -7,6 +7,7 @@ let
   media = "mpv.desktop";
   mail = "thunderbird.desktop";
   torrent = "org.qbittorrent.qBittorrent.desktop";
+  archive = "org.kde.ark.desktop";
 in
 {
   xdg.mimeApps = {
@@ -52,6 +53,16 @@ in
       # Torrents
       "x-scheme-handler/magnet" = torrent;
       "application/x-bittorrent" = torrent;
+
+      # Archives
+      "application/zip" = archive;
+      "application/x-tar" = archive;
+      "application/x-compressed-tar" = archive;
+      "application/x-bzip2-compressed-tar" = archive;
+      "application/x-xz-compressed-tar" = archive;
+      "application/zstd" = archive;
+      "application/x-7z-compressed" = archive;
+      "application/vnd.rar" = archive;
     };
   };
   xdg.configFile."mimeapps.list".force = true;
