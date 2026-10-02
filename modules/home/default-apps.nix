@@ -5,6 +5,7 @@ let
   fileManager = "thunar.desktop";
   editor = "codium.desktop";
   media = "mpv.desktop";
+  image = "org.kde.gwenview.desktop";
   mail = "thunderbird.desktop";
   torrent = "org.qbittorrent.qBittorrent.desktop";
   archive = "org.kde.ark.desktop";
@@ -31,6 +32,18 @@ in
       "text/markdown" = editor;
       "application/json" = editor;
       "application/x-shellscript" = editor;
+
+      # Images
+      "image/png" = image;
+      "image/jpeg" = image;
+      "image/gif" = image;
+      "image/webp" = image;
+      "image/bmp" = image;
+      "image/tiff" = image;
+      "image/svg+xml" = image;
+      "image/avif" = image;
+      "image/heif" = image;
+      "image/jxl" = image;
 
       # Video
       "video/mp4" = media;

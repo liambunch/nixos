@@ -22,6 +22,7 @@
     # Media
     vlc
     mpv
+    kdePackages.gwenview
 
     # Text
     libreoffice
