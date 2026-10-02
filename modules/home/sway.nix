@@ -44,6 +44,10 @@ in
 
       output."*".bg = "/mnt/unas/personal/Wallpapers/1936701.jpg fill";
 
+      startup = [
+        { command = "${pkgs.xrandr}/bin/xrandr --output DP-1 --primary"; always = true; }
+      ];
+
       bars = [ ];
 
       # Assign workspaces to monitors
