@@ -24,7 +24,6 @@
       position = "3000 0";
     };
 
-    # Wallpaper is on the NAS share mounted in ../modules/smb.nix
     output."*".bg = "/mnt/unas/personal/Wallpapers/1936701.jpg fill";
 
     # Make DP-1 primary for X11 apps, so games don't open on the portrait monitor

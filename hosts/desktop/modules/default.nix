@@ -6,6 +6,5 @@
     ./packages.nix
     ./users.nix
     ./virtualisation.nix
-    ./smb.nix
   ];
 }
