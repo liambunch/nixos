@@ -5,5 +5,4 @@
   services.resolved = {
     enable = true;
   };
-  services.openssh.enable = true;
 }
