@@ -41,5 +41,6 @@
     bottles
     kdePackages.ark
     python3
+    sshfs
   ];
 }
