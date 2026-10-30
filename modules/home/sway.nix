@@ -45,10 +45,4 @@ in
       exec sh -c 'dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP SWAYSOCK XDG_SESSION_TYPE PATH && systemctl --user restart xdg-desktop-portal xdg-desktop-portal-wlr'
     '';
   };
-
-  xdg.configFile."xdg-desktop-portal-wlr/config.toml".text = ''
-    [screencast]
-    chooser_type = "dmenu"
-    chooser_cmd = "wofi --dmenu"
-  '';
 }

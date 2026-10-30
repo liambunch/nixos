@@ -9,7 +9,6 @@
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
-    users.liam = import ../../hosts/desktop/home.nix;
     backupFileExtension = "backup";
   };
 }
