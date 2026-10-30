@@ -23,6 +23,7 @@
     vlc
     mpv
     kdePackages.gwenview
+    kdePackages.kdenlive
 
     # Development
     godot
