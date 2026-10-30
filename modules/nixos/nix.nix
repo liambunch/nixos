@@ -14,5 +14,5 @@
   };
   nix.optimise.automatic = true;
 
-  environment.shellAliases.rebuild = "sudo nixos-rebuild --flake path:/etc/nixos";
+  environment.shellAliases.rebuild = "sudo nixos-rebuild switch --flake path:/etc/nixos";
 }
