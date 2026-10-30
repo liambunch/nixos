@@ -11,7 +11,6 @@
     ./services.nix
     ./flatpak.nix
     ./users.nix
-    ./packages.nix
     ./nix-ld.nix
     ./nix.nix
   ];

@@ -3,6 +3,7 @@
 {
   imports = [
     ../../modules/home
+    ./home
   ];
 
   home.packages = with pkgs; [

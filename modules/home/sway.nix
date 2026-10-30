@@ -20,42 +20,7 @@ in
       terminal = "foot";
       menu = "wofi --show drun -I";
 
-      # Monitor layout
-      #
-      # HDMI-A-1: portrait monitor on the left
-      # DP-2:     landscape monitor in the center
-      # DP-1:     landscape monitor on the right
-
-      output."HDMI-A-1" = {
-        mode = "1920x1080@60Hz";
-        transform = "90";
-        position = "0 0";
-      };
-
-      output."DP-1" = {
-        mode = "1920x1080@60Hz";
-        position = "1080 0";
-      };
-
-      output."DP-2" = {
-        mode = "1920x1080@60Hz";
-        position = "3000 0";
-      };
-
-      output."*".bg = "/mnt/unas/personal/Wallpapers/1936701.jpg fill";
-
-      startup = [
-        { command = "${pkgs.xrandr}/bin/xrandr --output DP-1 --primary"; always = true; }
-      ];
-
       bars = [ ];
-
-      # Assign workspaces to monitors
-      workspaceOutputAssign = [
-        { workspace = "1"; output = "HDMI-A-1"; }
-        { workspace = "2"; output = "DP-1"; }
-        { workspace = "3"; output = "DP-2"; }
-      ];
 
       keybindings = lib.mkOptionDefault {
         # Lock screen
