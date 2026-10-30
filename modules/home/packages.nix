@@ -4,7 +4,7 @@
   home.packages = with pkgs; [
     
     # CLI Tools
-    neovim
+    vim
     wget
     fastfetch
     bottom
@@ -24,8 +24,10 @@
     mpv
     kdePackages.gwenview
     kdePackages.kdenlive
+    obs-studio
 
     # Development
+    claude-code
     godot
 
     # Text
@@ -38,5 +40,6 @@
     remmina
     bottles
     kdePackages.ark
+    python3
   ];
 }

@@ -1,7 +1,6 @@
 { ... }:
 
 {
-  # Flatpak
   services.flatpak = {
     enable = true;
     packages = [
