@@ -13,4 +13,6 @@
     options = "--delete-older-than 30d";
   };
   nix.optimise.automatic = true;
+
+  environment.shellAliases.rebuild = "sudo nixos-rebuild --flake path:/etc/nixos";
 }
