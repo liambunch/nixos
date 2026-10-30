@@ -20,6 +20,8 @@ in
       terminal = "foot";
       menu = "wofi --show drun -I";
 
+      output."*".bg = "/mnt/unas/personal/Wallpapers/1936701.jpg fill";
+
       bars = [ ];
 
       keybindings = lib.mkOptionDefault {

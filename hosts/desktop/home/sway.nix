@@ -24,8 +24,6 @@
       position = "3000 0";
     };
 
-    output."*".bg = "/mnt/unas/personal/Wallpapers/1936701.jpg fill";
-
     # Make DP-1 primary for X11 apps, so games don't open on the portrait monitor
     startup = [
       { command = "${pkgs.xrandr}/bin/xrandr --output DP-1 --primary"; always = true; }
