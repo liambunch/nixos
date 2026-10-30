@@ -24,6 +24,9 @@
     mpv
     kdePackages.gwenview
 
+    # Development
+    godot
+
     # Text
     libreoffice
 
