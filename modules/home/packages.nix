@@ -45,5 +45,6 @@
     kubectl
     freelens-bin
     kubernetes-helm
+    fluxcd
   ];
 }
