@@ -43,5 +43,6 @@
     python3
     sshfs
     kubectl
+    freelens-bin
   ];
 }
