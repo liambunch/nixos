@@ -42,5 +42,6 @@
     kdePackages.ark
     python3
     sshfs
+    kubectl
   ];
 }
