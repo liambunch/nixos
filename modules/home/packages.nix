@@ -44,5 +44,6 @@
     sshfs
     kubectl
     freelens-bin
+    kubernetes-helm
   ];
 }
