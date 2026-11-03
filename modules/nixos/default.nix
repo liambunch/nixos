@@ -11,6 +11,7 @@
     ./services.nix
     ./flatpak.nix
     ./smb.nix
+    ./tailscale.nix
     ./users.nix
     ./nix-ld.nix
     ./nix.nix
