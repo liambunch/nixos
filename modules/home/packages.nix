@@ -10,6 +10,7 @@
     bottom
     yt-dlp
     dig
+    sshfs
 
     # Internet (Browsers, Mail, Messaging, etc)
     mullvad-vpn
@@ -29,6 +30,13 @@
     # Development
     claude-code
     godot
+    python3
+
+    # Kubernetes
+    kubectl
+    freelens-bin
+    kubernetes-helm
+    fluxcd
 
     # Text
     libreoffice
@@ -37,14 +45,8 @@
     keepassxc
 
     # Misc
-    remmina
     bottles
     kdePackages.ark
-    python3
-    sshfs
-    kubectl
-    freelens-bin
-    kubernetes-helm
-    fluxcd
+    heroic
   ];
 }
