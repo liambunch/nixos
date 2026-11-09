@@ -28,6 +28,8 @@ outputs =
               specialArgs = { inherit inputs; };
               modules = [
                 ./hosts/${name}
+                inputs.home-manager.nixosModules.home-manager
+                inputs.nix-flatpak.nixosModules.nix-flatpak
                 inputs.sops-nix.nixosModules.sops
               ];
             }
