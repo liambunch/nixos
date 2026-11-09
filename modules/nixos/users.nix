@@ -6,6 +6,7 @@
     description = "Liam Bunch";
     extraGroups = [ "networkmanager" "wheel" ];
   };
+
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
